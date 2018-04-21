@@ -2,7 +2,7 @@ FirstName,Surname,PositionsList,Team
 Almen,Abdi,MID,Watford
 Charlie,Adam,MID,Stoke
 Albert,Adomah,MID,Middlesbrough
- ,Adrian,GLK,West Ham
+Adrian,San Miguel del Castillo,GLK,West Ham
 Ibrahim,Afellay,MID,Stoke
 Benik,Afobe,FWD,AFC Bournemouth
 Sergio,Aguero,FWD,Manchester City
@@ -19,7 +19,7 @@ Daniel,Amartey,MID,Leicester
 Jordi,Amat,DEF,Swansea
 Nordin,Amrabat,MID,Watford
 Keshi,Anderson,FWD,Crystal Palace
- ,Angelino,DEF,Manchester City
+Jose Angel,Esmoris Tasende,DEF,Manchester City
 Victor,Anichebe,FWD,Sunderland
 Michail,Antonio,MID,West Ham
 Ikechi,Anya,MID,Watford
@@ -33,7 +33,7 @@ Charlie,Austin,FWD,Southampton
 Daniel,Ayala,DEF,Middlesbrough
 Andre,Ayew,MID,West Ham
 Cesar,Azpilicueta,DEF,Chelsea
- ,Baba Rahman,DEF,Chelsea
+Abdul Rahman,Baba,DEF,Chelsea
 Eric,Bailly,DEF,Man Utd
 Leighton,Baines,DEF,Everton
 Mario,Balotelli,FWD,Liverpool
@@ -54,18 +54,18 @@ Yohan,Benalouane,DEF,Leicester
 Nabil,Bentaleb,MID,Tottenham
 Saido,Berahino,FWD,West Brom
 Steven,Berghuis,MID,Watford
- ,Bernardo,DEF,Middlesbrough
+Bernardo,Espinosa Zúñiga,DEF,Middlesbrough
 Ryan,Bertrand,DEF,Southampton
 Muhamed,Besic,MID,Everton
 Daley,Blind,DEF,Man Utd
 Hiram,Boateng,MID,Crystal Palace
- ,Bojan,MID,Stoke
+Bojan,Krkic,MID,Stoke
 Yannick,Bolasie,MID,Everton
 Wilfried,Bony,FWD,Stoke
 Fabio,Borini,FWD,Sunderland
 Cameron,Borthwick-Jackson,DEF,Man Utd
 Artur,Boruc,GLK,AFC Bournemouth
-Sofiane,AFC Bournemouthfal,MID,Southampton
+Sofiane,Boufal,MID,Southampton
 Jarrod,Bowen,FWD,Hull
 George,Boyd,MID,Burnley
 Cameron,Brannagan,MID,Liverpool
@@ -82,7 +82,7 @@ Willy,Caballero,GLK,Manchester City
 Yohan,Cabaye,MID,Crystal Palace
 Gary,Cahill,DEF,Chelsea
 Jonathan,Calleri,FWD,West Ham
-Wilson,Callum,FWD,AFC Bournemouth
+Callum,Wilson,FWD,AFC Bournemouth
 Geoff,Cameron,DEF,Stoke
 Fraizer,Campbell,FWD,Crystal Palace
 Joel,Campbell,MID,Arsenal
@@ -96,7 +96,7 @@ Craig,Cathcart,DEF,Watford
 Lee,Cattermole,MID,Sunderland
 Santiago,Cazorla,MID,Arsenal
 Petr,Cech,GLK,Arsenal
- ,Cedric,DEF,Southampton
+Cedric,Soares,DEF,Southampton
 Nacer,Chadli,MID,West Brom
 Nathaniel,Chalobah,MID,Chelsea
  ,Chamberlain,MID,Arsenal
@@ -104,7 +104,7 @@ Calum,Chambers,DEF,Middlesbrough
 James,Chester,DEF,West Brom
 Benjamin,Chilwell,DEF,Leicester
 Pedro,Chirivella,MID,Liverpool
-Benteke,Christian,FWD,Crystal Palace
+Christian,Benteke,FWD,Crystal Palace
 Josh,Clackstone,DEF,Hull
 Jordy,Clasie,MID,Southampton
 Adam,Clayton,MID,Middlesbrough
@@ -118,7 +118,7 @@ Lewis,Cook,MID,AFC Bournemouth
 Steve,Cook,DEF,AFC Bournemouth
 Francis,Coquelin,MID,Arsenal
 Jack,Cork,MID,Swansea
- ,Costa,FWD,Chelsea
+Diego,Da Silva Costa,FWD,Chelsea
 Thibaut,Courtois,GLK,Chelsea
 Philippe,Coutinho,MID,Liverpool
 Aaron,Cresswell,DEF,West Ham
@@ -129,7 +129,7 @@ Charlie,Daniels,DEF,AFC Bournemouth
 Scott,Dann,DEF,Crystal Palace
 Tendayi,Darikwa,DEF,Burnley
 Matteo,Darmian,DEF,Man Utd
-Luiz,David,DEF,Chelsea
+David,Luiz Moreira Marinho,DEF,Chelsea
 Ben,Davies,DEF,Tottenham
 Curtis,Davies,DEF,Hull
 Tom,Davies,MID,Everton
@@ -161,7 +161,7 @@ Papy,Djilobodji,DEF,Sunderland
 Abdoulaye,Doucoure,MID,Watford
 Stewart,Downing,MID,Middlesbrough
 Luke,Dreher,MID,Crystal Palace
-Daniel,DrinkWatforder,MID,Leicester
+Daniel,DrinkWater,MID,Leicester
 Nathan,Dyer,MID,Swansea
 Oviemuno,Ejaria,MID,Liverpool
 Ahmed,Elmohamady,MID,Hull
@@ -170,7 +170,7 @@ Marvin,Emnes,FWD,Swansea
 Christian,Eriksen,MID,Tottenham
 Jonny,Evans,DEF,West Brom
 Lukasz,Fabianski,GLK,Swansea
- ,Fabio,DEF,Middlesbrough
+Fabio Pereira,da Silva,DEF,Middlesbrough
 Cesc,Fabregas,MID,Chelsea
 Adam,Federici,GLK,AFC Bournemouth
 Sofiane,Feghouli,MID,West Ham
@@ -178,7 +178,7 @@ Marouane,Fellaini,MID,Man Utd
 Leroy,Fer,MID,Swansea
 Edimilson,Fernandes,MID,West Ham
 Federico,Fernandez,DEF,Swansea
- ,Fernandinho,MID,Manchester City
+Fernando,Luiz Rosa,MID,Manchester City
  ,Fernando,MID,Manchester City
 Sam,Field,MID,West Brom
 Roberto,Firmino,MID,Liverpool
@@ -200,10 +200,10 @@ Ezekiel,Fryers,DEF,Crystal Palace
 Christian,Fuchs,DEF,Leicester
 Jay,Fulton,MID,Swansea
 Ramiro,Funes Mori,DEF,Everton
- ,Gabriel,DEF,Arsenal
+Gabriel Armando,de Abreu,DEF,Arsenal
 Brendan,Galloway,DEF,West Brom
 Cristian,Gamboa,DEF,West Brom
- ,Garcia,MID,Manchester City
+Aleix,Garcia Serrano,MID,Manchester City
 Craig,Gardner,MID,West Brom
 Florin,Gardos,DEF,Southampton
 Paulo,Gazzaniga,GLK,Southampton
@@ -244,7 +244,7 @@ Luis,Hernandez,DEF,Leicester
 Ander,Herrera,MID,Man Utd
 Ben,Hinchcliffe,FWD,Hull
 Tommie,Hoban,DEF,Watford
-Pierre-Emile,H?jbjerg,MID,Southampton
+Pierre-Emile,Hjbjerg,MID,Southampton
 Rob,Holding,DEF,Arsenal
 Jose,Holebas,DEF,Watford
 Mason,Holgate,DEF,Everton
@@ -270,26 +270,26 @@ Adnan,Januzaj,MID,Sunderland
 Mile,Jedinak,MID,Crystal Palace
 Carl,Jenkinson,DEF,Arsenal
 Glen,Johnson,DEF,Stoke
-Benteke,Jonathan,FWD,Crystal Palace
+Jonathan,Benteke,FWD,Crystal Palace
 Billy,Jones,DEF,Sunderland
 David,Jones,MID,Burnley
 Phil,Jones,DEF,Man Utd
- ,Joselu,FWD,Stoke
-Robson,Josh,DEF,Sunderland
+Jose Luis,Mato Sanmartín,FWD,Stoke
+Josh,Robson,DEF,Sunderland
 Lukas,Jutkiewicz,FWD,Burnley
 Christian,Kabasele,DEF,Watford
-Younes,KaAFC Bournemouthl,DEF,Watford
+Younes,Kaboul,DEF,Watford
 Sullay,Kaikai,MID,Crystal Palace
 Harry,Kane,FWD,Tottenham
 N'Golo,Kante,MID,Chelsea
-Bartosz,KapuStoke Citya,MID,Leicester
+Bartosz,Kapustka,MID,Leicester
 Loris,Karius,GLK,Liverpool
 Michael,Keane,DEF,Burnley
 Will,Keane,FWD,Hull
 Martin,Kelly,DEF,Crystal Palace
- ,Kenedy,MID,Watford
+Robert Kenedy,Nunes do Nascimento,MID,Watford
 Wahbi,Khazri,MID,Sunderland
- ,Ki Sung-yueng,MID,Swansea
+Sung-yueng,Ki,MID,Swansea
 Michael,Kightly,MID,Burnley
 Andy,King,MID,Leicester
 Joshua,King,MID,AFC Bournemouth
@@ -310,10 +310,10 @@ Adam,Lallana,MID,Liverpool
 Rickie,Lambert,FWD,West Brom
 Erik,Lamela,MID,Tottenham
 Manuel,Lanzini,MID,West Ham
-Sebastian,LArsenalson,MID,Sunderland
+Sebastian,Larsson,MID,Sunderland
 Grant,Leadbitter,MID,Middlesbrough
 Joe,Ledley,MID,Crystal Palace
- ,Lee Chung-yong,MID,Crystal Palace
+Chung-yong,Lee,MID,Crystal Palace
 Jonathan,Leko,MID,West Brom
 Brian,Lenihan,DEF,Hull
 Aaron,Lennon,MID,Everton
@@ -342,11 +342,11 @@ Eliaquim,Mangala,DEF,Manchester City
 Alexander,Manninger,GLK,Liverpool
 Vito,Mannone,GLK,Sunderland
 Javier,Manquillo,DEF,Sunderland
-Wilson,Marc,DEF,AFC Bournemouth
+Marc,Wilson,DEF,AFC Bournemouth
 Adrian,Mariappa,DEF,Watford
 Lazar,Markovic,MID,Liverpool
 Dean,Marney,MID,Burnley
-David,MArsenalhall,GLK,Hull
+David,Marshall,GLK,Hull
 Anthony,Martial,MID,Man Utd
 Cuco,Martina,DEF,Southampton
 Bruno,Martins Indi,DEF,Stoke
@@ -374,7 +374,7 @@ Per,Mertesacker,DEF,Arsenal
 David,Meyler,MID,Hull
 Matt,Miazga,DEF,Chelsea
 Simon,Mignolet,GLK,Liverpool
- ,Mika,GLK,Sunderland
+Michael,Simoes Domingues,GLK,Sunderland
 John Obi,Mikel,MID,Chelsea
 James,Milner,MID,Liverpool
 Tyrone,Mings,DEF,AFC Bournemouth
@@ -400,9 +400,8 @@ Alvaro,Negredo,FWD,Middlesbrough
 Julien,Ngoy,FWD,Stoke
 Oumar,Niasse,FWD,Everton
 Clinton,N'Jie,FWD,Tottenham
-Georges-Kevin,Nkoudo,MID,Tottenham
+Georges-Kevin,Nkoudou,MID,Tottenham
 Mark,Noble,MID,West Ham
- ,Nolito,MID,Manchester City
 Kristoffer,Nordfeldt,GLK,Swansea
 Havard,Nordtveit,MID,West Ham
  ,Nsue,DEF,Middlesbrough
@@ -419,8 +418,8 @@ Jonas,Olsson,DEF,West Brom
 Aiden,O'Neill,MID,Burnley
 Joshua,Onomah,MID,Tottenham
 Divock,Origi,FWD,Liverpool
-Romeu,Oriol,MID,Southampton
- ,Oscar,MID,Chelsea
+Oriol,Romeu Vidal,MID,Southampton
+Oscar,dos Santos Emboaba Junior,MID,Chelsea
 John,O'Shea,DEF,Sunderland
 David,Ospina,GLK,Arsenal
 Nicolas,Otamendi,DEF,Manchester City
@@ -430,9 +429,9 @@ Reece,Oxford,DEF,West Ham
 Mesut,Ozil,MID,Arsenal
 Costel,Pantilimon,GLK,Watford
 Juan Carlos,Paredes,DEF,Watford
-Lopez,Pau,GLK,Tottenham
+Pau,Lopez Sabata,GLK,Tottenham
 Dimitri,Payet,MID,West Ham
- ,Pedro,MID,Chelsea
+Pedro,Rodríguez Ledesma,MID,Chelsea
 Matthew,Pennington,DEF,Everton
 Andreas,Pereira,MID,Man Utd
 Roberto,Pereyra,MID,Watford
@@ -489,7 +488,7 @@ Bastian,Schweinsteiger,MID,Man Utd
 Xherdan,Shaqiri,MID,Stoke
 Luke,Shaw,DEF,Man Utd
 Ryan,Shawcross,DEF,Stoke
- ,Sheyi Ojo,MID,Liverpool
+Oluwaseyi,Ojo,MID,Liverpool
 Gylfi,Sigurdsson,MID,Swansea
 David,Silva,MID,Manchester City
 Danny,Simpson,DEF,Leicester
@@ -523,7 +522,7 @@ James,Tarkowski,DEF,Burnley
 Neil,Taylor,DEF,Swansea
 Dionatan do Nascimento,Teixeira,DEF,Stoke
 John,Terry,DEF,Chelsea
-Robson,Thomas,DEF,Sunderland
+Thomas,Robson,DEF,Sunderland
 James,Tomkins,DEF,Crystal Palace
 Gokhan,Tore,MID,West Ham
 Andros,Townsend,MID,Crystal Palace
@@ -554,8 +553,8 @@ Joel,Ward,DEF,Crystal Palace
 Stephen,Ward,DEF,Burnley
 James,Ward-Prowse,MID,Southampton
 Marcin,Wasilewski,DEF,Leicester
-Duncan,Watfordmore,MID,Sunderland
-Ben,Watfordson,MID,Watford
+Duncan,Watmore,MID,Sunderland
+Ben,Watson,MID,Watford
 James,Weir,MID,Hull
 Danny,Welbeck,FWD,Arsenal
 Glenn,Whelan,MID,Stoke
@@ -563,7 +562,7 @@ Connor,Wickham,FWD,Crystal Palace
 Georginio,Wijnaldum,MID,Liverpool
 Ashley,Williams,DEF,Everton
 Jonathan,Williams,MID,Crystal Palace
- ,Willian,MID,Chelsea
+Willian,Borges Da Silva,MID,Chelsea
 Jack,Wilshere,MID,AFC Bournemouth
 James,Wilson,FWD,Man Utd
 Kane,Wilson,DEF,West Brom
@@ -572,7 +571,7 @@ Harry,Winks,MID,Tottenham
 Philipp,Wollscheid,DEF,Stoke
 Granit,Xhaka,MID,Arsenal
 Claudio,Yacob,MID,West Brom
- ,Yaya Toure,MID,Manchester City
+Gnegneri Yaya,Touré,MID,Manchester City
 DeAndre,Yedlin,DEF,Tottenham
 Maya,Yoshida,DEF,Southampton
 Ashley,Young,MID,Man Utd
@@ -583,4 +582,93 @@ Ron-Robert,Zieler,GLK,Leicester
 Oleksandr,Zinchenko,MID,Manchester City
 Kurt,Zouma,DEF,Chelsea
 Juan,Zuniga,DEF,Watford
+Alex,Oxlade-Chamberlain,MID,Liverpool
+Kieran,O'Hara,GLK,Man Utd
+Fernando Francisco,Reges,MID,Manchester City
+Manuel,Agudo Duran,MID,Manchester City
+Ben,Wynter,DEF,Crystal Palace
+Jake,Hesketh,MID,Southampton
+George,Honeyman,MID,Sunderland
+Jeff,Reine-Adelaide,MID,Arsenal
+Olufela,Olomola,FWD,Southampton
+Raphael,Spiegel,GLK,West Ham United
+Daniel,James,MID,Swansea
+Thibaud,Verlinden,MID,Stoke City
+Ryan,Allsop,GLK,Bournemouth
+Matthew,James,MID,Leicester City
+Andrew,Eleftheriou,DEF,Watford
+Michael,Phillips,FWD,West Brom
+Noor,Husin,MID,Crystal Palace
+Josh,Maja,FWD,Sunderland
+Ethan,Robson,MID,Sunderland
+Charlie,Rowan,DEF,Watford
+Harry,Lewis,GLK,Southampton
+Michael,Ledger,DEF,Sunderland
+Joey,Barton,MID,Burnley
+Rudy,Gestede,FWD,Middlesbrough
+Evandro,Goebel,MID,Hull City
+Joel,Taylor,FWD,Stoke City
+Mauro,Zarate,FWD,Watford
+M'Baye,Niang,FWD,Watford
+Alfred,N'Diaye,MID,Hull City
+Molla,Wague,DEF,Leicester City
+Baily,Cargill,DEF,Bournemouth
+Mouez,Hassen,GLK,Southampton
+Daniel,Agyei,FWD,Burnley
+Martin,Caceres,DEF,Southampton
+Harry,Wilson,MID,Hull City
+Joe,Williams,MID,Everton
+Dion,Pereira,MID,Watford
+James,Husband,DEF,Middlesbrough
+Eduardo,Dos Reis Carvalho,GLK,Chelsea
+Nathan,Holland,MID,Everton
+Rhian,Brewster,FWD,Liverpool
+Angus,Gunn,GLK,Manchester City
+Demetri,Mitchell,DEF,Man Utd
+Elliott,Moore,DEF,Leiscester City
+Filip,Lesniak,MID,Tottenham
+Samuel,Shashoua,FWD,Tottenham
+Zachary,Dearnley,FWD,Man Utd
+Daniel,Kemp,FWD,West Ham Utd
+Daniel,Batty,MID,Hull City
+Matthew,Worthington,MID,Bournemouth
+Sam,Surridge,FWD,Bournemouth
+Dominic,Solanke,FWD,Chelsea
+Sam,McQueen,DEF,Southampton
+Ainsley,Maitland-Niles,MID,Arsenal
+Kevin,Long,DEF,Burnley
+Dominic,Calvert-Lewin,FWD,Everton
+Stuart,Taylor,GLK,Southampton
+Alex,Palmer,GLK,WBA
+Ben,Woodburn,MID,Liverpool
+Joshua,Sims,MID,Southampton
+Oluwatosin,Adarabioyo,DEF,Man City
+Marcus,Browne,MID,West Ham Utd
+Domingos,Quina,MID,West Ham Utd
+Aaron,Wan-Bissaka,MID,CRY
+Rekeem,Harper,MID,WBA
+Jonjoe,Kenny,DEF,Everton
+Declan,Rice,DEF,WHU
+Michael,Folivi,FWD,WAT
+Brandon,Mason,DEF,WAT
+Carl,Stewart,MID,WAT
+Gabriel Fernando,de Jesus,FWD,MCI
+Ademola,Lookman,MID,EVE
+Wilfred,Ndidi,MID,LEI
+Luciano,Narsingh,MID,SWA
+Martin,Olsson,DEF,SWA
+Robbie,Brady,MID,BUR
+Ashley,Westwood,MID,BUR
+Jordan,Ayew,FWD,SWA
+Manolo,Gabbiadini,FWD,SOU
+Luka,Milivojevic,MID,CRY
+Thomas,Edwards,DEF,STK
+Connor,Roberts,DEF,SWA
+Axel,Tuanzebe,DEF,MUN
+Damian Emiliano,Martinez,GLK,ARS
+Matt,Macey,GLK,ARS
+Joel Dinis,Castro Pereira,GLK,Man Utd
+Moses,Makasi,MID,WHU
+Scott,McTominay,MID,MUN
+Aaron,Ramsdale,GLK,BOU
 
