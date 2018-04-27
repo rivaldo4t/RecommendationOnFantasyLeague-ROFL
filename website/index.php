@@ -53,13 +53,8 @@
 						<section>
 
 <form action="results.php" method="post">
-<strong><font size=6>Select the game week :</font></strong>
+<strong><font size=6>Select the game week : Game-Weeks 6-19 predictions available</font></strong>
 <select name="week">
-<option value="1"> Game Week 1 </option>
-<option value="2"> Game Week 2 </option>
-<option value="3"> Game Week 3 </option>
-<option value="4"> Game Week 4 </option>
-<option value="5"> Game Week 5 </option>
 <option value="6"> Game Week 6 </option>
 <option value="7"> Game Week 7 </option>
 <option value="8"> Game Week 8 </option>
@@ -74,25 +69,6 @@
 <option value="17"> Game Week 17 </option>
 <option value="18"> Game Week 18 </option>
 <option value="19"> Game Week 19 </option>
-<option value="20"> Game Week 20 </option>
-<option value="21"> Game Week 21 </option>
-<option value="22"> Game Week 22 </option>
-<option value="23"> Game Week 23 </option>
-<option value="24"> Game Week 24 </option>
-<option value="25"> Game Week 25 </option>
-<option value="26"> Game Week 26 </option>
-<option value="27"> Game Week 27 </option>
-<option value="28"> Game Week 28 </option>
-<option value="29"> Game Week 29 </option>
-<option value="30"> Game Week 30 </option>
-<option value="31"> Game Week 31 </option>
-<option value="32"> Game Week 32 </option>
-<option value="33"> Game Week 33 </option>
-<option value="34"> Game Week 34 </option>
-<option value="35"> Game Week 35 </option>
-<option value="36"> Game Week 36 </option>
-<option value="37"> Game Week 37 </option>
-<option value="38"> Game Week 38 </option>
 </select>
 
   <input type="submit" value="Go">

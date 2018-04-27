@@ -54,7 +54,7 @@
 							</header>
 						<?php
 						$url = $_POST["week"];
-						$file = "data/forward".$url.".txt";
+						$file = "data/fw/".$url."_fw.txt";
 						$content = file($file);
 						foreach ($content as $line) {
 					    echo ('<li>' . $line . '</li>');
@@ -70,7 +70,7 @@
 							</header>
 							<?php
 							$url = $_POST["week"];
-							$file = "data/mid".$url.".txt";
+							$file = "data/mid/".$url."_mid.txt";
 							$content = file($file);
 							foreach ($content as $line) {
 						    echo ('<li>' . $line . '</li>');
@@ -86,7 +86,7 @@
 							</header>
 							<?php
 							$url = $_POST["week"];
-							$file = "data/defender".$url.".txt";
+							$file = "data/def/".$url."_def.txt";
 							$content = file($file);
 							foreach ($content as $line) {
 						    echo ('<li>' . $line . '</li>');
@@ -102,7 +102,7 @@
 							</header>
 							<?php
 							$url = $_POST["week"];
-							$file = "data/goalie".$url.".txt";
+							$file = "data/glk/".$url."_glk.txt";
 							$content = file($file);
 							foreach ($content as $line) {
 						    echo ('<li>' . $line . '</li>');
