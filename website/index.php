@@ -134,7 +134,7 @@
 				<div class="row">
 					<div class="3u">
 						<section>
-							<a href="#" class="image full"><img src="images/epl.jpg" alt=""></a>			
+							<a href=""><img src="images/epl.jpg" width="280" height="210" alt=""></a>			
 						</section>
 						<p>  </p>
 						<p>  </p>
@@ -142,7 +142,7 @@
 												<p>  </p>
 																		<p>  </p>
 						<section>
-							<a href="#" class="image full"><img src="images/epl2.png" alt=""></a>			
+							<a href=""><img src="images/epl2.png" width="280" height="250" alt=""></a>			
 						</section>
 					</div>		
 					
@@ -181,13 +181,222 @@
 					</div>
 					<div class="3u">
 											<section>
-							<a href="#" class="image full"><img src="images/fantasy.jpg" alt=""></a>
+							<a href=""><img src="images/fantasy.jpg" width="350" height="350" alt=""></a>
 										
 						</section>
 					</div>		
 				</div>
 			</div>
 		</div>
+
+
+
+
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+
+					<div class="3u">
+						<section>
+							<header>
+								<h2>Proposed Idea</h2>
+							</header>
+						</section>
+					</div>
+							<a href=""><img src="images/flow.png" width="680" height="680" alt=""></a>			
+
+					</div>
+				</div>
+			</div>
+
+
+
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<a href=""><img src="images/fantasyfix.png" width="300" height="280" alt=""></a>			
+						</section>	
+
+						<section>
+							<a href=""><img src="images/fantasyfix2.png" width="300" height="280" alt=""></a>			
+						</section>	
+					</div>
+					<div class="9u">
+						<section>
+							<header>
+								<h2>Data collection, parsing, aggregation</h2>
+							</header>
+							<p>Dataset for season 2016-17 has been obtained from https://github.com/vaastav/Fantasy-Premier-League/tree/master/data/2016-17. Current Season data is scraped from Fantasy Premier League website. Dataset includes both explicit and implicit features for each player. Explicit features are assists, goals scored, saves, passes completed, etc while implicit features cover player's bonus points, influence, creativity and threats. The dataset also covers player's past seasons history. Dataset for past season(2016-17) and (2017-18) contains gameweek wise scores and features for player. Player position and team data has been taken from FoxSports.</p>
+							<p>Further, fixture table showing gameweek wise schedule of each match has been taken from Fantasy Premier League website. Data from all the above sources has been merged together.</p>
+						</section>
+
+						<section>
+							<header>
+								<h2>Preparing Data</h2>
+							</header>
+							<p>First, data is splitted into training and testing. The model is trained on data from 2016-17 season. The data for each player is averaged for gameweek, such that each feature is averaged over all the gameweeks.
+							In case of transfers, only those gameweeks are taken into consideration from which the player has entered the season. We test the data on 2017-18 season for each gameweek starting from gameweek 6.
+							Our test data for a gameweek is the average of last five gameweeks, for example, for gameweek 6, the test data features are average of features of last 5 games. The player's past history feature is taken as average points over the seasons he has played prior to the season the model is trained/tested on.
+							The data is divided into 4 categories, for each position, namely, Goalkeeper, Forward, Defender, and Midfielder.</p>
+							
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+
+<div id="featured">
+			<div class="container">
+				<div class="row">
+					<div class="9u">
+						<section>
+							<header>
+								<h2>Training and Testing Models</h2>
+							</header>
+							<p>For predicting player performance, we look at his current trend. Player's current trend is defined as average performance over the last 5 games. Next, we look at player's past performance over past seasons. Then, performance is evaluated both for implicit and explicit features and their combination.
+							We have tried various models to rank the players and predict their performance, namely Linear Regression, Bayesian Ridge Regression, SVR, and Ranking SVM. The regression models just predict the total_points of the player and rank them in decreasing order in each category. Ranking SVM computes pairwise comparision of players, and for each combination of players, assigns a score of +1 or -1, depending upon who is better among the two. The final score is computed based on the number of wins for each player, and the score is sorted to obtain the top players.
+							The players are ranked in each category and top 10 players in each category are recommended to the users</p>
+							<p>Based upon game analysis and point score as given by Fantasy Premier League website, we came up with a set of features for each category of players. We divide our data into set of explicit, implicit and global history features.
+Explicit Features are features that can directly be calculated from the gameplay. These include bunch of positive and negative features for each player: For forwards, features such as assists, goals_scored, tackled, missed penalties. For midfielders, assists, big_chances_created, completed_passes, dribbles, goals_scored, key_passes Defender: clean_sheets, clearances_blocks_interceptions, own_goals Goalkeeper: Saves, clean_sheets. Furthur, some features like minutes, fouls are taken for every position of players.
+Implicit features are subjective features that are calculated by Fantasy Premier League website. This include bonus points given to each player based on his performance. Also, features such as player influence, creativity and threat are some of implicit features
+Player past history is taken into account as global feature. This feature selects players based on past performances only..</p>
+							
+						</section>
+					</div>
+					<div class="3u">
+											<section>
+							<a href=""><img src="images/ml-900.png" width="400" height="200" alt=""></a>
+										
+						</section>
+						<h2></h2>
+						<h2></h2>
+						<h2></h2>
+											<section>
+							<a href=""><img src="images/ml.jpg" width="350" height="200" alt=""></a>
+										
+						</section>
+					</div>		
+				</div>
+			</div>
+		</div>
+		<div id="featured">
+			<div class="container">
+				<div class="row">
+							<header>
+								<h2>Evaluation</h2>
+							</header>
+							<p>Results on different models: We ran 4 models on all four positions to rank players for each gameweek. Four models are Linear Regression, Bayesian Ridge Regression, SVR and Ranking SVM. Ranking SVM outperformed all other methods(Regression, Bayesian Ridge, and SVR) showing that for ranking, pairwise comparison is always better and scoring based on regression models.</p><p>
+Evaluation metrics - precision: We use precision for top 10 players. Our predicted top 10 players in each category is compared against the actual top 10 players for that gameweek.
+Analysis: We furthur analysed the effect of implicit, explicit and global factors on player performance prediction. We observed that player current trend is the most important feature in predicting performance for the next gameweek. Implicit features such as ict_index offer little advantage, boosting the performance by 0.1.</p>
+				<div id="featured">
+			<div class="container">
+				<div class="row">
+
+					<div class="3u">
+						<section>
+							<header>
+								<h2> <center>Forwards</center>          </h2>
+							</header>
+							<a href=""><img src="images/fw1.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2> <center>         Defenders</center></h2>
+							</header>
+							<a href=""><img src="images/df1.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2> <center>Goal Keepers</center>       </h2>
+							</header>
+							<a href=""><img src="images/gk1.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<header>
+								<h2> <center>  Midfielders</center>       </h2>
+							</header>
+							<a href=""><img src="images/mid1.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+
+					<div class="3u">
+						<section>
+							<a href=""><img src="images/fw2.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href=""><img src="images/df2.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href=""><img src="images/gk2.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<a href=""><img src="images/mid2.png" width="280" height="200" alt=""></a>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+			<div id="featured">
+			<div class="container">
+				<div class="row">
+					<section>
+							<header>
+								<h2>Result and Discussion</h2>
+							</header>
+							</section>
+							<p>Ranking SVM outperformed all other factors by a significant amount, reaching 0.9 precision in some gameweeks. Player's past history gives a slight improvement over only current trend, giving more score to players who are currently not in form but have been phenomenal in the past. Implicit factors give slight improvement over explicit, though not over all gameweeks.</p>
+</div>
+</div>
+</div>
+
+			<div id="featured">
+			<div class="container">
+				<div class="row">
+							<header>
+								<h2>Challenges</h2>
+							</header>
+							<p>Fantasy premier league website only provides the current data of the players. Extracting the data for past seasons was quite challenging. Any single source of data didn't suffice, due to which we had to extract data from multiple sources providing information of different Features for players like Teams and Positions. Player name different and contained special characters, had to be handled. Understanding and tuning features for each category of players, for example, for forward position we considered features like goals scored and assists as most important features. Features like ict index, which is a combination of player's influence, creativity and threat also play a major role in player ranking.</p>
+</div>
+</div>
+</div>
+			<div id="featured">
+			<div class="container">
+				<div class="row">
+							<header>
+								<h2>Future Work</h2>
+							</header>
+							<p>In future, our model can be extended to provide complete manager module, which can recommend optimal players in case of :  <strong>1. Substitutions </strong>- In the game which three players can be substituted to optimize the team <strong>2. Injuries </strong>- In case of injuries, who is the most "similar" player to replace the injured player <strong>3. Transfers </strong>- which player(s) from other teams can be bought to improve the team performance in the future season. Also, in future we plan to use neural models and deep learning to learn hidden features and analyse their effects on precision of results.</p>
+</div>
+</div>
+</div>
+			<div id="featured">
+			<div class="container">
+				<div class="row">
+							<header>
+								<h2>Open Issues</h2>
+							</header>
+							<p>Dataset is only available for 2016-17 season, for better results more data is required.
+Since we are predicting the player features to be the average of his last 5 games, if a player is not even participating even in a gameweek, our model still gives points to the player assuming the player will appear in the game, leading to inaccurate results. Somehow, the model needs to know whether the player would play or not in the next gameweek.
+The model does not consider any injuries, suspensions the player might have, and gives results assuming that the players who started in the season continue to play the entire season. Although since our algorithm takes into account player's current trend, if a player is not playing continuously for last games, automatically his predicted performance decreases.</p>
+</div>
+</div>
+</div>
 		<div id="banner">&nbsp;</div>
 	</body>
 </html>
