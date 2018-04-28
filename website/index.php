@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Recommendation On Fantasy League - ROFL</title>
+		<title>Recommendation On Fantasy League</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -32,13 +32,14 @@
 
 				<!-- Logo -->
 				<div id="logo">
-					<h1><a href="index.php">Recommendation On Fantasy League - ROFL</a></h1>
+					<h1><a href="index.php">Recommendation On Fantasy League</a></h1>
 				</div>
 
 				<nav id="nav">
 					<ul>
 						<li><a href="demo.html">Demo</a></li>
-						<li><a href="https://snehil-om.github.io">Code</a></li>
+						<li><a href="https://snehil-om.github.io">Website</a></li>
+						<li><a href="code.html">Code</a></li>
 						<li><a href="team.php">Our Team</a></li>
 					</ul>
 				</nav>
