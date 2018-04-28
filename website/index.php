@@ -37,7 +37,7 @@
 
 				<nav id="nav">
 					<ul>
-						<li><a href="demo.html">Demo</a></li>
+						<li><a href="demo.html">Demo Video</a></li>
 						<li><a href="https://snehil-om.github.io">Website</a></li>
 						<li><a href="code.html">Code</a></li>
 						<li><a href="team.php">Our Team</a></li>
